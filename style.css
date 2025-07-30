@@ -1,6 +1,6 @@
 /* Reset and base styles */
 body {
-    background: linear-gradient(135deg, #e0ffe0 0%, #b2f7ef 100%);
+    background: linear-gradient(135deg, #a7dfff 0%, #63bdf1 100%);
     font-family: 'Roboto', Arial, sans-serif;
     margin: 0;
     color: #222;
@@ -12,7 +12,7 @@ a {
     transition: color 0.2s;
 }
 a:hover {
-    color: #1a5e1a;
+    color: #125871;
 }
 
 /* Navbar */
@@ -29,7 +29,7 @@ a:hover {
     letter-spacing: 2px;
 }
 .nav-logo .accent {
-    color: #228B22;
+    color: #0f577e;
 }
 .nav-links {
     list-style: none;
@@ -45,7 +45,7 @@ a:hover {
     border-radius: 8px;
 }
 .nav-links li a:hover {
-    background: #e6ffe6;
+    background: #e6f7ff;
 }
 
 /* Hero Section */
