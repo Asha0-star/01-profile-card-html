@@ -3,27 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asha at a Glance</title>
+    <title>Asha Richardson | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="card">
-        <img src="img/IMG_5951.jpg" alt="Asha Richardson" style="display:block; margin: 0 auto 24px; border-radius: 50%; width: 120px; height: 120px;">
-        <h1>Asha Richardson</h1>
-        <h2>Software Engineer</h2>
-        <p>
-            Asha is a passionate software engineer with a love for building intuitive web applications. 
-            She enjoys solving complex problems and collaborating with diverse teams to deliver impactful solutions.
-        </p>
-        
-        <h3>My Favorite Websites</h3>
-        <ul>
-            <li><a href="https://thejumabrand.com/">The Juma Brand Jewelery</a></li>
-            <li><a href="https://seatgeek.com/">Seat Geek</a></li>
-            <li><a href="https://www.youtube.com/">YouTube</a></li>
-            <li><a href="https://www.netflix.com/browse">Netflix</a></li>
+    <nav class="navbar">
+        <div class="nav-logo">Asha<span class="accent">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#gallery">Gallery</a></li>
         </ul>
-    </div>
+    </nav>
+    <header class="hero">
+        <img src="img/IMG_5951.jpg" alt="Asha Richardson" class="profile-img">
+        <h1>Asha Richardson</h1>
+        <h2>Software Engineer & Creator</h2>
+        <p>
+            Hi! I'm Asha, a passionate software engineer who loves building intuitive web applications and creative digital experiences. I thrive on solving complex problems and collaborating with diverse teams to deliver impactful solutions.
+        </p>
+        <a href="#projects" class="cta-btn">See My Work</a>
+    </header>
+    <main>
+        <section id="about" class="about-section">
+            <h3>About Me</h3>
+            <p>
+                With a strong background in web development and a keen eye for design, I enjoy bringing ideas to life through code and visuals. Whether it's a sleek portfolio, a dynamic web app, or a fun side project, I put creativity and care into everything I build.
+            </p>
+        </section>
+        <section id="projects" class="projects-section">
+            <h3>Featured Projects</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h4>Personal Portfolio</h4>
+                    <p>A modern, responsive portfolio site showcasing my work and skills.</p>
+                    <a href="https://github.com/asharichardson/portfolio" target="_blank">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h4>Juma Brand Jewelry</h4>
+                    <p>E-commerce site for a jewelry brand, built with React and Shopify.</p>
+                    <a href="https://thejumabrand.com/" target="_blank">Visit Site</a>
+                </div>
+                <div class="project-card">
+                    <h4>Seat Geek Clone</h4>
+                    <p>Ticket booking platform inspired by Seat Geek, using Node.js and Express.</p>
+                    <a href="https://github.com/asharichardson/seatgeek-clone" target="_blank">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h4>Fun with APIs</h4>
+                    <p>Collection of interactive web apps using public APIs (YouTube, Netflix, etc).</p>
+                    <a href="https://github.com/asharichardson/api-fun" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+        </section>
+        <section id="gallery" class="gallery-section">
+            <h3>Visual Gallery</h3>
+            <div class="gallery-grid">
+                <img src="img/IMG_5951.jpg" alt="Asha Portrait">
+                <img src="img/sample1.jpg" alt="Project Screenshot 1">
+                <img src="img/sample2.jpg" alt="Project Screenshot 2">
+                <!-- Add more images as needed -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Asha Richardson | <a href="https://github.com/asharichardson" target="_blank">GitHub</a> | <a href="mailto:asha@email.com">Contact</a></p>
+    </footer>
 </body>
 </html>
